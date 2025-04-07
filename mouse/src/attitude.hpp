@@ -9,11 +9,10 @@ void current_position(float *position, float *accel, short dt) {
 
     while (*position)
     {
-        *position = *accel * dt;
+        *position = *accel * dt * dt;
         *position++;
         *accel++;
     }
-    
 }
 
 void attitude_serial_output(float *pos, float *acc, long current_time) {

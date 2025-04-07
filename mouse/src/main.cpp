@@ -27,7 +27,6 @@ void setup() {
   Wire.begin();
   Serial.begin(9600);
   pinMode(irPin[0], INPUT);
-
 }
 
 void loop() {
