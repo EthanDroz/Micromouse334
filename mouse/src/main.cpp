@@ -1,4 +1,9 @@
 #include <Arduino.h>
+#include "sensor.h"
+#include "attitude.hpp"
+#include "Wire.h"
+
+
 
 // timer declarations;
 unsigned long current_time;
@@ -9,10 +14,10 @@ unsigned long time1 = 1000;
 int irPin = 1;
 
 // function declarations:
-int ir_analog(int);
 
 void setup() {
   // put your setup code here, to run once:
+  Wire.begin();
   Serial.begin(9600);
   pinMode(irPin, INPUT);
 
@@ -24,14 +29,7 @@ void loop() {
 
   if (current_time - prev_time_main > time1) {
     prev_time_main = current_time;
-
+    int ir_1 = ir_analog(irPin, time1);
   }
-
-}
-
-// put function definitions here:
-int ir_analog(int Pin) {
-  int reading = analogRead(Pin);
-
 
 }
