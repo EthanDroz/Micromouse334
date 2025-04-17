@@ -1,0 +1,36 @@
+#ifndef SENSOR_H
+#define SENSOR_H
+
+#include <Arduino.h>
+
+const int analogPin = A0;
+const int digitalPin = 2; 
+
+void setup() {
+  Serial.begin(115200);
+  pinMode(digitalPin, INPUT);
+}
+
+void loop() {
+  int analogValue = analogRead(analogPin); 
+  float voltage = analogValue * (5.0 / 1023.0); 
+
+  int digitalState = digitalRead(digitalPin);       // Read digital pin (HIGH/LOW)
+
+  Serial.print("Voltage: ");
+  Serial.print(voltage, 2);
+  Serial.print(" V\t");
+
+  Serial.print("Analog Value: ");
+  Serial.print(analogValue);
+  Serial.print("\t");
+
+  if (digitalState == LOW) {
+    Serial.println("Object Detected (Digital Output: LOW)");
+  } else {
+    Serial.println("No Object (Digital Output: HIGH)");
+  }
+
+  delay(100); 
+}
+#endif  // SENSOR_H
