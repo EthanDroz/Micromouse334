@@ -1,1 +1,0 @@
-/home/doktor_bees/Documents/Obsidian/School/Spring-2025/MAE_334-MAE_Labortory_I/Micromouse334/training/mapping/target/debug/mapping: /home/doktor_bees/Documents/Obsidian/School/Spring-2025/MAE_334-MAE_Labortory_I/Micromouse334/training/mapping/src/main.rs
