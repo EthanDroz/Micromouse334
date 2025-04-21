@@ -1,0 +1,8 @@
+/home/doktor_bees/Documents/Obsidian/School/Spring-2025/MAE_334-MAE_Labortory_I/Micromouse334/training/mapping/target/debug/deps/libavif_serialize-7a28c8baa2bc7206.rmeta: /home/doktor_bees/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/avif-serialize-0.8.3/src/lib.rs /home/doktor_bees/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/avif-serialize-0.8.3/src/boxes.rs /home/doktor_bees/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/avif-serialize-0.8.3/src/constants.rs /home/doktor_bees/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/avif-serialize-0.8.3/src/writer.rs
+
+/home/doktor_bees/Documents/Obsidian/School/Spring-2025/MAE_334-MAE_Labortory_I/Micromouse334/training/mapping/target/debug/deps/avif_serialize-7a28c8baa2bc7206.d: /home/doktor_bees/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/avif-serialize-0.8.3/src/lib.rs /home/doktor_bees/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/avif-serialize-0.8.3/src/boxes.rs /home/doktor_bees/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/avif-serialize-0.8.3/src/constants.rs /home/doktor_bees/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/avif-serialize-0.8.3/src/writer.rs
+
+/home/doktor_bees/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/avif-serialize-0.8.3/src/lib.rs:
+/home/doktor_bees/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/avif-serialize-0.8.3/src/boxes.rs:
+/home/doktor_bees/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/avif-serialize-0.8.3/src/constants.rs:
+/home/doktor_bees/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/avif-serialize-0.8.3/src/writer.rs:

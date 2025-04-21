@@ -1,0 +1,2 @@
+cargo:rerun-if-env-changed=LAMBERT_W_ENSURE_NO_PANICS
+cargo:rustc-check-cfg=cfg(assert_no_panic)
