@@ -130,7 +130,7 @@ short get_sm_neighbor(Node * current_node){
         sm_neighbor = current_node->right->floodval;
         direction = EAST;
       }
-    return sm_neighbor, direction;
+    return direction;
 }
 
 /* Calls ir sensors and determines if their is a wall before marking it in memory by setting the direction pointer in a node to NULL */
@@ -159,7 +159,7 @@ void update_node(Node * current_node, Agent * current_agent) {
   }
   current_node->visited = true;
 }
-/* Builds the inital agent that will patrol the flooded maze */
+/* Updates the agent with new positioning and heading values */
 void update_agent(Agent *current_agent) {
   current_agent->heading = get_heading();
   current_agent->row = position_y();
